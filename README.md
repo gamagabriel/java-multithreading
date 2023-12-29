@@ -29,4 +29,6 @@ of another thread back to the CPU and memory;
 - Too many threads - Thrashing, spending more time in management than real productive work;
 - Threads consume less resources than processes;
 - Context switching between threads from the same process is cheaper than context switch between different processes
-- 
+
+**2° Section: Threading fundamentals**
+-
