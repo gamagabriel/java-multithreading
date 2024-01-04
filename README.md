@@ -26,9 +26,13 @@ in the memory;
 of another thread back to the CPU and memory;
 
 **Context Switch - Key Takeaways**
-- Too many threads - Thrashing, spending more time in management than real productive work;
+- Too many threads: Thrashing, spending more time in management than real productive work;
 - Threads consume less resources than processes;
 - Context switching between threads from the same process is cheaper than context switch between different processes
 
 **2° Section: Threading fundamentals**
--
+- Thread.class: Encapsulates all thread related functionality;
+- Have two ways to run code on a new thread:
+  - Implement Runnable interface, and pass to a new Thread object (See first here: [FirstWayCreateThread.java](src%2Fmain%2Fjava%2Forg%2Fmultithread%2Fcreation%2FFirstWayCreateThread.java));
+  - Extend Thread class and create an object that class (See second here: [SecondWayCreateThread.java](src%2Fmain%2Fjava%2Forg%2Fmultithread%2Fcreation%2FSecondWayCreateThread.java)).
+- Both ways are equally correct to run a new thread.

@@ -1,6 +1,6 @@
 package org.multithread.creation;
 
-public class CreateThread {
+public class FirstWayCreateThread {
 
     public static void main(String[] args) throws InterruptedException {
 
